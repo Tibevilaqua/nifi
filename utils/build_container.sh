@@ -1,1 +1,1 @@
-docker build . -t nifi:1
+docker build . -t nifi:2

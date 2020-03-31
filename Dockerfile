@@ -8,3 +8,6 @@ RUN apt-get install net-tools -y
 RUN apt-get install telnet
 
 ENV PATH="/opt/nifi/nifi-toolkit-1.11.1/bin:${PATH}"
+
+#Sending state file to container
+COPY ./volume/flow.xml.gz /opt/nifi/nifi-current/conf
