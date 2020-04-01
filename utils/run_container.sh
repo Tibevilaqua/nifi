@@ -1,1 +1,1 @@
-docker run -v `pwd`/volume:/opt/volume -p 8080:8080 -p 15000:15000 -it nifi:2
+docker run -v `pwd`/volume:/opt/volume -p 8080:8080 -p 15000:15000 -it nifi:3
