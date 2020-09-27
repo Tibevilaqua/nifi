@@ -1,4 +1,4 @@
-FROM apache/nifi:1.11.4
+FROM apache/nifi:1.12.0
 
 USER root
 
